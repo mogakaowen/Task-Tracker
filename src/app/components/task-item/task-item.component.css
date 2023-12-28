@@ -1,28 +1,30 @@
-.task{
-    background-color: #f4f4f4;
-    margin: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
+.task {
+  background-color: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.task:hover{
-    background-color: #e4e4e4;
+.task:hover {
+  background-color: #e4e4e4;
 }
 
-.task.completed{
-    text-decoration: line-through;
+.task.completed {
+  text-decoration: line-through;
 }
 
-.task.reminder{
-    border-left: 5px green solid;
+.task.reminder {
+  border-left: 5px green solid;
+}
+.task.no-reminder {
+  border-left: 5px red solid;
 }
 
-.task.reminder:hover{
-    border-left: 5px blue solid;
+.task.reminder:hover {
+  border-left: 5px blue solid;
 }
-.task h3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.task h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
